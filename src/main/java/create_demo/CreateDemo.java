@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 
 import hibernate_demo.Employee;
 
-public class CreateDemo {
+public class CreateDemo { 
 	
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("demo");
